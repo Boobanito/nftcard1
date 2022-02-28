@@ -1,0 +1,173 @@
+body {
+  background-color: #0d1a2d;
+}
+
+.box {
+  height: 500px;
+  width: 300px;
+  background: #15273f;
+  border-radius: 15px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  box-shadow: 0px 0px 20px 14px #142944;
+}
+
+.box:hover {
+  color: #49d7dc;
+  animation: ;
+  box-shadow: 0px 0px 20px 14px #4e92eb;
+}
+
+#name:hover {
+  color: #49d7dc;
+}
+
+.equilibrium {
+  height: 250px;
+  width: 260px;
+  border-radius: 15px;
+  top: 20px;
+  left: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.equilibrium:hover {
+  color: #49d7dc;
+}
+
+#name {
+  position: relative;
+  font-family: "Outfit";
+  font-size: 18px;
+  top: 40px;
+  left: 22px;
+  color: white;
+  cursor: pointer;
+}
+
+#description {
+  position: relative;
+  left: 22px;
+  font-weight: lighter;
+  top: 60px;
+  text-align: justify;
+  font-family: "Outfit";
+  color: #4b607f;
+}
+
+#price {
+  position: relative;
+  left: 22px;
+  font-weight: lighter;
+  top: 60px;
+  text-align: justify;
+  font-family: "Outfit";
+  color: #49d7dc;
+}
+
+#ethereum {
+  position: relative;
+  left: 22px;
+  font-weight: lighter;
+  top: 63px;
+}
+
+#time {
+  position: relative;
+  left: 100px;
+  font-weight: lighter;
+  top: 60px;
+  text-align: justify;
+  font-family: "Outfit";
+  color: #4b607f;
+}
+
+#clock {
+  position: relative;
+  left: 100px;
+  font-weight: lighter;
+  top: 63px;
+}
+
+#separation {
+  border-top: 2px solid rgb(255, 255, 255);
+  width: 250px;
+  border-radius: 30px;
+  left: 25px;
+  top: 60px;
+  position: relative;
+}
+
+#crédits {
+  position: relative;
+  left: 40px;
+  font-weight: lighter;
+  top: 40px;
+  text-align: justify;
+  font-family: "Outfit";
+  color: #9cb7e0a1;
+}
+#creator {
+  color: antiquewhite;
+  cursor: pointer;
+}
+
+#creator:hover {
+  color: #49d7dc;
+}
+
+#avatar {
+  position: relative;
+  left: 30px;
+  font-weight: lighter;
+  top: 53px;
+  height: 35px;
+}
+
+.attribution {
+  font-family: "outfit";
+  position: relative;
+  top: 100px;
+  color: white;
+}
+
+#link1 {
+  color: #4b607f;
+  text-decoration: none;
+}
+
+#codername {
+  color: #4b607f;
+  text-decoration: none;
+}
+
+.imagebox {
+  position: relative;
+}
+
+.hoverbox {
+  position: absolute;
+  top: -513.4px;
+  left: 20px;
+  height: 250px;
+  width: 260px;
+  border-radius: 15px;
+  background-color: #49d7dc;
+  opacity: 0%;
+}
+
+#view {
+  top: 50%;
+  position: relative;
+  transform: translate(0, -50%);
+  opacity: 100%;
+  color: rgb(255, 255, 255);
+}
+
+.hoverbox:hover {
+  opacity: 50%;
+  cursor: pointer;
+}

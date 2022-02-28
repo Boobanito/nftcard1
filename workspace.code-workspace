@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": "..\\Programmation"
+	},
+	{
+		"path": "..\\nft-preview-card-component-main"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "nft-preview-card-component-main"
+  }
+}
